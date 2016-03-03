@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mlodzianoski.stack2d" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Stack 2D</name>
+    <description>
+        
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+
+    <preference name="orientation" value="portrait" />
+
+
+    <!-- copied from crasher project -->
+
+    <!-- <icon src="icon_hyrule.png" /> -->
+
+
+    <!--
+	Use a tool to generate the splash images, like http://www.appiconsizes.com/
+	The files need to be manually copied into their respective directories.
+    -->
+    <!-- <platform name="android"> -->
+    <!--   <splash src="platforms/android/res/drawable-hdpi/background.9.png" density="hdpi" /> -->
+    <!--   <splash src="platforms/android/res/drawable-ldpi/background.9.png" density="ldpi" /> -->
+    <!--   <splash src="platforms/android/res/drawable-mdpi/background.9.png" density="mdpi" /> -->
+    <!--   <splash src="platforms/android/res/drawable-xhdpi/background.9.png" density="xhdpi" /> -->
+    <!-- </platform> -->
+
+    <platform name="android">
+      <icon src="platforms/android/res/drawable-hdpi/appicon.png" density="hdpi" />
+      <icon src="platforms/android/res/drawable-ldpi/appicon.png" density="ldpi" />
+      <icon src="platforms/android/res/drawable-mdpi/appicon.png" density="mdpi" />
+      <icon src="platforms/android/res/drawable-xhdpi/appicon.png" density="xhdpi" />
+    </platform>
+
+
+    <!-- <preference name="SplashScreen" value="platforms/android/res/drawable-hdpi/background.9.png "/> -->
+
+    <!-- <preference name="AutoHideSplashScreen" value="true" /> -->
+    <!-- <preference name="SplashScreenDelay" value="10000"/> -->
+
+
+    <!-- android quirk? -->
+    <!-- cordova plugin add cordova-plugin-splashscreen -->
+    <!-- https://github.com/apache/cordova-plugin-splashscreen -->
+    <!-- <preference name="SplashScreen" value="foo" /> -->
+    <!-- <preference name="SplashScreenDelay" value="3000" /> -->
+    <!-- <preference name="SplashMaintainAspectRatio" value="true|false" /> -->
+    <!-- <preference name="SplashShowOnlyFirstTime" value="true|false" /> -->
+
+    <platform name="android">
+      <splash src="platforms/android/res/drawable-hdpi/background.9.png" density="hdpi" />
+      <splash src="platforms/android/res/drawable-ldpi/background.9.png" density="ldpi" />
+      <splash src="platforms/android/res/drawable-mdpi/background.9.png" density="mdpi" />
+      <splash src="platforms/android/res/drawable-xhdpi/background.9.png" density="xhdpi" />
+    </platform>
+
+
+
+    <preference name="SplashScreen" value="background"/>
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="20000"/>
+
+    <preference name="FadeSplashScreen" value="true"/>
+    <preference name="FadeSplashScreenDuration" value="1000"/>
+
+
+
+
+</widget>

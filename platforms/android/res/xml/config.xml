@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mlodzianoski.youllfigureitout" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-intent href="market:*" />
+    <icon density="hdpi" src="platforms/android/res/drawable-hdpi/appicon.png" />
+    <icon density="ldpi" src="platforms/android/res/drawable-ldpi/appicon.png" />
+    <icon density="mdpi" src="platforms/android/res/drawable-mdpi/appicon.png" />
+    <icon density="xhdpi" src="platforms/android/res/drawable-xhdpi/appicon.png" />
+    <splash density="hdpi" src="platforms/android/res/drawable-hdpi/background.9.png" />
+    <splash density="ldpi" src="platforms/android/res/drawable-ldpi/background.9.png" />
+    <splash density="mdpi" src="platforms/android/res/drawable-mdpi/background.9.png" />
+    <splash density="xhdpi" src="platforms/android/res/drawable-xhdpi/background.9.png" />
+    <name>aa You`ll Figure It Out</name>
+    <description>
+        Just keep trying. You`ll figure it out.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="orientation" value="portrait" />
+    <preference name="SplashScreen" value="background" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="20000" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="1000" />
+</widget>

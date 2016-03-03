@@ -1,0 +1,1 @@
+/* this was the default cordova js file. deleted */
